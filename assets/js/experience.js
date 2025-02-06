@@ -5,27 +5,35 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Graduate Research Assistant",
+    cardImage: "assets/images/experience-page/uiuc.svg",
+    place: "University of Illinois, Urbana-Champaign",
+    time: "(Sep, 2024 - Present)",
+    desp: "<li>Collaborating with National Center of Super-computing Applications (NCSA) on the AI-FARMS project.</li><li>Leveraging YoloV8 + LSTM to perform real-time activity level detection of pigs using live-feed from the farm.</li><li>Part of the ongoing research on coordinate based behavior prediction of pre-wean pigs using computer vision and machine learning techniques.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Software Engineering Intern",
+    cardImage: "assets/images/experience-page/cflt.jpeg",
+    place: "Confluent",
+    time: "(May, 2024 - Aug, 2024)",
+    desp: "<li>Worked with the Experience & Interface Team, primarily using Python, SQL, Google BigQuery and Superset.</li><li>Partnered with cross-functional teams to develop an extensive alerting system for UX metrics.</li><li>Extended Apache Superset to develop a smart and robust alerting framework around user-experience metrics, capable of detecting anomalous trends using statistical and machine learning techniques.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Associate Quantitative Strategist",
+    cardImage: "assets/images/experience-page/gs.png",
+    place: "Goldman Sachs",
+    time: "(Jul, 2021 - Dec, 2023)",
+    desp: "<li>Worked with the Systematic Volatility Trading Team (Global Markets) primarily in Java, Python and Slang.</li><li>Developed an algorithm to compute stock volatility values outside market hours and a Java service for real-time pricing, reducing Vol-Arb losses by ~52%.</li><li>Developed a Kafka-based service for real-time volatility fit-quality data, projecting annual savings of ~12 million USD.</li>",
+  },
+  {
+    title: "Senior Software Engineer",
+    cardImage: "assets/images/experience-page/samsung.jpg",
+    place: "Samsung Semiconductors",
+    time: "(Aug, 2020 - Jul, 2021)",
+    desp: "<li>Worked with Advanced Sensor Algorithms Development and Research Team, primarily in C++ and Python.</li><li>Developed an end-to-end pipeline for 3D scene reconstruction from scratch, generating 3D surface models from PointClouds and RGB images.</li><li>Enhanced performance using OpenMP multithreading and OpenCL GPGPU programming.</li>",
   },
 ];
+
 
 const showCards2 = () => {
   let output = "";
