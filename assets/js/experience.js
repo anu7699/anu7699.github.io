@@ -6,20 +6,20 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Graduate Research Assistant",
-    cardImage: "assets/images/experience-page/uiuc.svg",
+    cardImage: "assets/images/experience-page/uiuc.jpeg",
     place: "University of Illinois, Urbana-Champaign",
     time: "(Sep, 2024 - Present)",
     desp: "<li>Collaborating with National Center of Super-computing Applications (NCSA) on the AI-FARMS project.</li><li>Leveraging YoloV8 + LSTM to perform real-time activity level detection of pigs using live-feed from the farm.</li><li>Part of the ongoing research on coordinate based behavior prediction of pre-wean pigs using computer vision and machine learning techniques.</li>",
   },
   {
     title: "Software Engineering Intern",
-    cardImage: "assets/images/experience-page/cflt.jpeg",
+    cardImage: "assets/images/experience-page/confluent.jpeg",
     place: "Confluent",
     time: "(May, 2024 - Aug, 2024)",
     desp: "<li>Worked with the Experience & Interface Team, primarily using Python, SQL, Google BigQuery and Superset.</li><li>Partnered with cross-functional teams to develop an extensive alerting system for UX metrics.</li><li>Extended Apache Superset to develop a smart and robust alerting framework around user-experience metrics, capable of detecting anomalous trends using statistical and machine learning techniques.</li>",
   },
   {
-    title: "Associate Quantitative Strategist",
+    title: "Quantitative Strategist",
     cardImage: "assets/images/experience-page/gs.png",
     place: "Goldman Sachs",
     time: "(Jul, 2021 - Dec, 2023)",
@@ -27,7 +27,7 @@ const exp = [
   },
   {
     title: "Senior Software Engineer",
-    cardImage: "assets/images/experience-page/samsung.jpg",
+    cardImage: "assets/images/experience-page/samsung.jpeg",
     place: "Samsung Semiconductors",
     time: "(Aug, 2020 - Jul, 2021)",
     desp: "<li>Worked with Advanced Sensor Algorithms Development and Research Team, primarily in C++ and Python.</li><li>Developed an end-to-end pipeline for 3D scene reconstruction from scratch, generating 3D surface models from PointClouds and RGB images.</li><li>Enhanced performance using OpenMP multithreading and OpenCL GPGPU programming.</li>",
