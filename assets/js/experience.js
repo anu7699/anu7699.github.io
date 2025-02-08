@@ -119,11 +119,11 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "The Uplift Project",
-    subtitle: "Mentor",
+    title: "NASA Space Apps Challenge 2024 (Chicago)",
+    subtitle: "Participant",
     image: "assets/images/experience-page/uplift.png",
     desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
-    href: "https://uplift.girlscript.tech/",
+    href: "https://www.spaceappschallenge.org/",
   },
   {
     title: "ULHacks",
