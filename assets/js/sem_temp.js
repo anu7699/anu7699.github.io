@@ -2,6 +2,8 @@
 
 /* Common Page Content */
 // Header
+//<li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
+   
 let header = $(`
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
 <a class="navbar-brand" href="index.html">Anu Agarwal </a>
@@ -19,7 +21,6 @@ let header = $(`
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="https://drive.google.com/file/d/1SDd9nJ13R9dG7mTDhvGIBAvvMySM4mB0/view?usp=sharing" target="_blank">Resume</a></li>
