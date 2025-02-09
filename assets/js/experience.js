@@ -122,21 +122,21 @@ const mentor = [
     title: "NASA Space Apps Challenge 2024 (Chicago)",
     subtitle: "Participant",
     image: "assets/images/experience-page/nasa.png",
-    desp: "<li>Designed an AIC(Akaike Information Criterion) based algorithm to analyze real data from the Apollo missions and the Mars InSight Lander to identify seismic quakes within the noise.</li>",
+    desp: "Designed an AIC(Akaike Information Criterion) based algorithm to analyze real data from the Apollo missions and the Mars InSight Lander to identify seismic quakes within the noise.",
     href: "https://drive.google.com/file/d/1pAAZOgassDsn7JpqBzLdBOQa1vmABdQ9/view?usp=sharing",
   },
   {
     title: "GS Accelerate Hackathon, India Engineering Expo 2022",
     subtitle: "First Runner Up",
     image: "assets/images/experience-page/gs.png",
-    desp: "<li>Analyzed the trade data of Secondary Loans trading and identified major factors contributing to increased trade settlement time.</li><li>Developed a model to predict the settlement time of a given trade, accurately upto 5 days.</li>",
+    desp: "Analyzed the trade data of Secondary Loans trading and identified major factors contributing to increased trade settlement time. Also developed a model to predict the settlement time of a given trade, accurately upto 5 days.",
     href: "https://www.goldmansachs.com/",
   },
   {
     title: "Smart India Hackathon 2019",
     subtitle: "First Runner Up, National Finalist",
     image: "assets/images/experience-page/sih.jpg",
-    desp: "<li>Developed an automated system for extracting and analyzing CCTV camera footage to extract crowd density and flow, detect unauthorized persons and monitor crowd behavior.</li>",
+    desp: "Developed an automated system for extracting and analyzing CCTV camera footage to extract crowd density and flow, detect unauthorized persons and monitor crowd behavior.",
     href: "https://www.sih.gov.in/sih2019",
   },
 ];
@@ -146,23 +146,15 @@ const showCards3 = () => {
   mentor.forEach(
     ({ title, image, subtitle, desp, href }) =>
       (output += `  
-      <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400">
-        <div class="card card1">
-          <img src="${image}" class="featured-image"/>
-          <article class="card-body">
-            <header>
-              <div class="title">
-                <h3>${title}</h3>
-              </div>
-              <p class="meta">
-                <span class="pre-heading">${subtitle}</span>
-              </p>
-              <ol>
-                ${desp}
-              </ol>
-              <a href="${href}" class="blog-slider__button">Read More</a>
-            </header>
-          </article>
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+            <img src="${image}" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <div class="blog-slider__title">${title}</div>
+          <span class="blog-slider__code">${subtitle}</span>
+          <div class="blog-slider__text">${desp}</div>
+          <a href="${href}" class="blog-slider__button">Read More</a>   
         </div>
       </div>
       `)
